@@ -1,3 +1,6 @@
 [submodule "zsh/custom/themes/powerlevel10k"]
 	path = zsh/custom/themes/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "tmux/tmux-themepack"]
+	path = tmux/tmux-themepack
+	url = https://github.com/jimeh/tmux-themepack.git

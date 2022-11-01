@@ -94,3 +94,5 @@ source $ZSH/oh-my-zsh.sh
 alias xcd='cd "$(xplr --print-pwd-as-result)"'
 
 export EDITOR=hx
+
+sh $HOME/.config/zsh/logo.sh
