@@ -1,0 +1,24 @@
+theme = "dracula_at_night"
+
+[editor]
+line-number = "relative"
+auto-completion = true
+mouse = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+
+[keys.normal]
+w = "move_prev_word_start"
+e = "move_next_word_end"
+b = "move_next_word_start"
+W = "goto_line_start"
+E = "goto_line_end"
+B = "move_next_long_word_start"
