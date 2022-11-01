@@ -7,5 +7,14 @@ This repository contains the configuration file for:
  - tmux
 etc
 
-# Keymaps:
+## Keymaps:
+(TODO)
+
+## Installation
+`
+ cd ~
+ git clone git@github.com:thallosaurus/configurations.git .config
+`
+
+## Helix Language Server
 (TODO)
