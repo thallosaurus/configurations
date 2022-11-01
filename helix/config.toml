@@ -1,4 +1,4 @@
-theme = "dracula_at_night"
+theme = "base16_terminal"
 
 [editor]
 line-number = "relative"
