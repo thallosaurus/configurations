@@ -94,6 +94,12 @@ source $ZSH/oh-my-zsh.sh
 alias xcd='cd "$(xplr --print-pwd-as-result)"'
 
 export EDITOR=hx
+#export SUDO_EDITOR=hx
+
+# autostart tmux
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
 
 sh $HOME/.config/zsh/logo.sh
 
