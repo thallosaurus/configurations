@@ -15,7 +15,7 @@ etc
  git clone git@github.com:thallosaurus/configurations.git .config
 
  # to use provided zsh config
- echo "export .config/zsh/zshrc" > .zshrc
+ echo "source $HOME/.config/zsh/zshrc" > .zshrc
 ```
 
 ## Helix Language Server
